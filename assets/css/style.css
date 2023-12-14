@@ -176,6 +176,10 @@ span {
    margin-bottom: 10px;
 }
 
+#feature .fe-box p {
+   display: none;
+}
+
 #feature .fe-box:nth-child(2) h6 {
    background-color: #cdebbc;
 }
@@ -693,4 +697,48 @@ span {
    #footer .install .row img {
       margin: 5px 0;
    }
+
+   .section-p2 {
+      padding: 10px;
+   }
+
+   #product1 {
+      padding: 10px;
+   }
+
+   #product1 .pro {
+      margin: 5px;
+   }
+
+   #product1 .pro {
+      min-width: 170px;
+      padding: 10px 12px;
+      margin: 5px;
+   }
+
+   #feature {
+      justify-content: space-between;
+      padding: 5px;
+   }
+   
+   #feature .fe-box {
+      width: 118px;
+      text-align: center;
+      padding: 25px 15px;
+      box-shadow: 20px 20px 34px -3px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(144, 139, 139, 0.333);
+      border-radius: 4px;
+      margin: 6px 0;
+   }
+
+   #feature .fe-box h6 {
+      font-size: 14px;
+   }
+
+   #feature .fe-box p {
+      display: block;
+   }
+
+   
+
 }
