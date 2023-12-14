@@ -702,6 +702,10 @@ span {
       padding: 10px;
    }
 
+   #product1 .pro-container {
+      justify-content: space-between;
+   }
+
    #product1 {
       padding: 10px;
    }
@@ -711,7 +715,7 @@ span {
    }
 
    #product1 .pro {
-      min-width: 170px;
+      min-width: 176px;
       padding: 10px 12px;
       margin: 5px;
    }
@@ -720,7 +724,7 @@ span {
       justify-content: space-between;
       padding: 5px;
    }
-   
+
    #feature .fe-box {
       width: 118px;
       text-align: center;
@@ -738,7 +742,5 @@ span {
    #feature .fe-box p {
       display: block;
    }
-
-   
 
 }
