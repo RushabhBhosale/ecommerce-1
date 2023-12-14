@@ -696,9 +696,11 @@ span {
    #prodetails .single-pro-image {
       width: 50%;
    }
+
    .kuka {
       display: block;
    }
+
    .none {
       display: none;
    }
@@ -708,9 +710,11 @@ span {
    #prodetails {
       display: block;
    }
+
    #prodetails .single-pro-image {
       width: 100%;
    }
+
    #prodetails .single-pro-details {
       width: 100%;
    }
@@ -720,6 +724,75 @@ span {
 /* ********************* */
 /* BLOG Page */
 /* ********************* */
+
+#page-header.blog-header {
+   background-image: url('../images/banner/b19.jpg');
+}
+
+#blog {
+   padding: 150px 150px 0 150px;
+}
+
+#blog .blog-details {
+   width: 50%;
+}
+
+#blog .blog-details a {
+   font-size: 13px;
+   color: #000000;
+   font-weight: 700;
+   position: relative;
+   transition: 0.3s ease;
+}
+
+#blog .blog-details a:hover {
+   color: #088178;
+}
+
+#blog .blog-details a::after {
+   content: "";
+   width: 50px;
+   height: 1px;
+   background-color: #000000;
+   position: absolute;
+   top: 9px;
+   left: 107px;
+}
+
+#blog .blog-details a:hover::after {
+   background-color: #088178;
+}
+
+#blog .blog-box {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   position: relative;
+   padding-bottom: 90px;
+}
+
+#blog .blog-img {
+   width: 50%;
+   margin-right: 40px;
+   position: relative;
+}
+
+#blog img {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+#blog .blog-box h1 {
+   position: absolute;
+   top: -40px;
+   left: 3px;
+   font-size: 80px;
+   font-weight: 700;
+   color: rgb(201, 203, 206);
+   z-index: -1;
+}
 
 
 /* ********************* */
@@ -923,4 +996,25 @@ span {
       display: block;
    }
 
+   #blog .blog-details {
+      width: 100%;
+   }
+
+   #blog .blog-img {
+      width: 100%;
+      margin-right: 0;
+      position: relative;
+   }
+
+   #blog .blog-box {
+      display: block;
+      align-items: center;
+      width: 100%;
+      position: relative;
+      padding-bottom: 90px;
+   }
+
+   #blog {
+      padding: 150px 20px 0 20px;
+   }
 }
