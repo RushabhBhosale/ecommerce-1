@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE-edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ecommerce Website</title>
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/css/navbar.css">
+   <script src="https://kit.fontawesome.com/0926a5a74f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+   <div class="header">
+      <div class="container">
+         <div class="row v-center">
+            <div class="header-item item-left">
+               <a class="logo" href="index.html">
+                  <img src="assets/images/logo.png" alt="">
+               </a>
+            </div>
+            <div class="header-item item-center">
+               <div class="menu-overlay"></div>
+               <nav class="menu">
+                  <div class="mobile-menu-head">
+                     <div class="go-back">
+                        <i class="fa fa-angle-left"></i>
+                     </div>
+                     <div class="current-menu-title"></div>
+                     <div class="mobile-menu-close">&times;</div>
+                  </div>
+                  <ul class="menu-main">
+                     <li class="menu-item">
+                        <a class="bb" href="index.html">Home</a>
+                     </li>
+                     <li class="menu-item menu-item-has-children">
+                        <a class="bb active" href="#">Shop <i class="fas fa-angle-down"></i></a>
+                        <ul class="sub-menu mega-menu mega-menu-column-4">
+                           <li class="list-item">
+                              <h4 class="title">Men's Fashion</h4>
+                              <ul>
+                                 <li><a href="#">T-Shirts</a></li>
+                                 <li><a href="#">Jeans</a></li>
+                                 <li><a href="#">Suits</a></li>
+                                 <li><a href="#">Accessories</a></li>
+                              </ul>
+                              <h4 class="title">Sneakers</h4>
+                              <ul class="lists">
+                                 <li><a href="#">Running Shoes</a></li>
+                                 <li><a href="#">Casual Sneakers</a></li>
+                              </ul>
+                           </li>
+                           <li class="list-item">
+                              <h4 class="title">Women's Fashion</h4>
+                              <ul>
+                                 <li><a href="#">Dresses</a></li>
+                                 <li><a href="#">Handbags</a></li>
+                                 <li><a href="#">Shoes</a></li>
+                              </ul>
+                              <h4 class="title">Jewelery</h4>
+                              <ul>
+                                 <li><a href="#">Necklaces</a></li>
+                                 <li><a href="#">Earrings</a></li>
+                                 <li><a href="#">Bracelets</a></li>
+                              </ul>
+                           </li>
+                           <li class="list-item">
+                              <h4 class="title">Kitchen</h4>
+                              <ul>
+                                 <li><a href="#">Cookware</a></li>
+                                 <li><a href="#">Utensils</a></li>
+                                 <li><a href="#">Appliances</a></li>
+                                 <li><a href="#">Bakeware</a></li>
+                                 <li><a href="#">Cutlery</a></li>
+                                 <li><a href="#">Storage</a></li>
+                                 <li><a href="#">Kitchen Tools</a></li>
+                              </ul>
+                           </li>
+                           <li class="list-item">
+                              <h4 class="title">Brands</h4>
+                              <ul>
+                                 <li><a href="#">Nuke</a></li>
+                                 <li><a href="#">Adidogs</a></li>
+                                 <li><a href="#">Coma</a></li>
+                              </ul>
+                              <h4 class="title">Accesories</h4>
+                              <ul>
+                                 <li><a href="#">Hats</a></li>
+                                 <li><a href="#">Scarves</a></li>
+                                 <li><a href="#">Sunglasses</a></li>
+                              </ul>
+                           </li>
+                           <li class="list-item">
+                              <img src="assets/images/products/f2.jpg">
+                              <img src="assets/images/offers.jpg" alt="">
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="menu-item menu-item-has-children">
+                        <a class="bb" href="#">Blog <i class="fas fa-angle-down"></i></a>
+                        <div class="sub-menu single-column-menu">
+                           <ul>
+                              <li><a href="#">Standard Layout</a></li>
+                              <li><a href="#">Grid Layout</a></li>
+                              <li><a href="#">Single Post Layout</a></li>
+                           </ul>
+                        </div>
+                     </li>
+                     <li class="menu-item menu-item-has-children">
+                        <a class="bb" href="#">Pages <i class="fas fa-angle-down"></i></a>
+                        <div class="sub-menu single-column-menu">
+                           <ul class="sub-menu-content">
+                              <li><a href="#">Contact</a></li>
+                              <li><a href="#">Grid</a></li>
+                              <li><a href="#">Address</a></li>
+                           </ul>
+                        </div>
+                     </li>
+                     <li class="menu-item">
+                        <a class="bb" href="#">Contact</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+            <div class="header-item item-right">
+               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+               <a href="#"><i class="fa-solid fa-heart"></i></a>
+               <a href="cart.html"><i id="count" class="fa-solid fa-cart-shopping"></i></a>
+               <div class="mobile-menu-trigger">
+                  <span></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+         <img src="./assets/images/products/f1.jpg" width="100%" id="mainImg">
+         <div class="small-img-group">
+            <div class="small-img-col">
+               <img src="./assets/images/products/f1.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+               <img src="./assets/images/products/f2.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+               <img src="./assets/images/products/f3.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+               <img src="./assets/images/products/f4.jpg" width="100%" class="small-img" alt="">
+            </div>
+         </div>
+      </div>
+
+      <div class="single-pro-details">
+         <h6>Home / T-Shirt</h6>
+         <h4>Men's Fashion T-Shirt</h4>
+         <h2>$139.00</h2>
+         <select>
+            <option>Select Size</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+            <option>XXL</option>
+         </select>
+         <div class="flex">
+            <div class="wrapper">
+               <span class="minus">-</span>
+               <span class="num">1</span>
+               <span class="plus">+</span>
+            </div>
+            <button class="normal">Add To Cart</button>
+         </div>
+         <div class="none">
+            <h4>Product Details</h4>
+         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit expedita hic voluptate eveniet perspiciatis
+            at molestiae doloribus et molestias dignissimos, inventore, deserunt, eum animi libero adipisci voluptatum
+            recusandae necessitatibus veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quam
+            accusantium officia veniam tempore et, ipsum aliquid ex consequuntur corrupti? </span>
+         </div>
+         
+      </div>
+
+   </section>
+ 
+   <div class="section-p1 kuka">
+      <h4>Product Details</h4>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit expedita hic voluptate eveniet perspiciatis
+         at molestiae doloribus et molestias dignissimos, inventore, deserunt, eum animi libero adipisci voluptatum
+         recusandae necessitatibus veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quam
+         accusantium officia veniam tempore et, ipsum aliquid ex consequuntur corrupti? </span>
+   </div>
+
+   <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Summer Collection New Modern Designs</p>
+      <div class="pro-container">
+         <div class="pro">
+            <img src="assets/images/products/f2.jpg">
+            <div class="des">
+               <span>Adidas</span>
+               <h5>Space Explorer Tees</h5>
+               <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+               </div>
+               <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid cart fa-cart-shopping"></i></a>
+         </div>
+         <div class="pro">
+            <img src="assets/images/products/f5.jpg">
+            <div class="des">
+               <span>Reebok</span>
+               <h5>Galactic Print Shirts</h5>
+               <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+               </div>
+               <h4>$55</h4>
+            </div>
+            <a href="#"><i class="fa-solid cart fa-cart-shopping"></i></a>
+         </div>
+         <div class="pro">
+            <img src="assets/images/products/f6.jpg">
+            <div class="des">
+               <span>New Balance</span>
+               <h5>Cosmic Explorer Shirts</h5>
+               <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+               </div>
+               <h4>$68</h4>
+            </div>
+            <a href="#"><i class="fa-solid cart fa-cart-shopping"></i></a>
+         </div>
+         <div class="pro">
+            <img src="assets/images/products/f7.jpg">
+            <div class="des">
+               <span>Converse</span>
+               <h5>Space Odyssey Shorts</h5>
+               <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+               </div>
+               <h4>$75</h4>
+            </div>
+            <a href="#"><i class="fa-solid cart fa-cart-shopping"></i></a>
+         </div>
+      </div>
+
+
+   </section>
+
+   <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+         <h4>Sign Up For Newsletter</h4>
+         <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+      </div>
+      <div class="form">
+         <input type="email" placeholder="Your email address">
+         <button class="normal">Sign Up</button>
+      </div>
+   </section>
+
+   <section id="footer" class="section-p1">
+      <div class="col">
+         <h4 class="contact">Contact</h4>
+         <p><strong>Address: </strong>Juinagar, Navi Mumbai, Thane, Maharashtra, 400705, India</p>
+         <p><strong>Hours: </strong>10:00 - 20:00</p>
+         <p><strong>Phone: </strong>+91 9137996317</p>
+         <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icons">
+               <i class="fa-brands fa-facebook-f"></i>
+               <i class="fa-brands fa-twitter"></i>
+               <i class="fa-brands fa-instagram"></i>
+               <i class="fa-brands fa-linkedin"></i>
+               <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+         </div>
+      </div>
+      <div class="col">
+         <h4>About</h4>
+         <a href="#">About Us</a>
+         <a href="#">Delivery Information</a>
+         <a href="#">Privacy Policy</a>
+         <a href="#">Terms & Conditions</a>
+         <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+         <h4>My Account</h4>
+         <a href="#">Sign In</a>
+         <a href="#">View Cart</a>
+         <a href="#">My Wishlist</a>
+         <a href="#">Track My Order</a>
+         <a href="#">Help</a>
+      </div>
+      <div class="col install">
+         <h4>Install App</h4>
+         <p>From App Store or Google Play</p>
+         <div class="row">
+            <img src="./assets/images/pay/app.jpg">
+            <img src="./assets/images/pay/play.jpg">
+         </div>
+         <p>Secured Payment Gateways </p>
+         <img src="./assets/images/pay/pay.png" alt="">
+      </div>
+      <div class="copyright">@2023. Design by Tech2. Developed by Rushabh Bhosale</div>
+   </section>
+
+
+   <script src="assets/js/script.js"></script>
+
+   <script src="assets/js/navbar.js"></script>
+</body>
+
+</html>

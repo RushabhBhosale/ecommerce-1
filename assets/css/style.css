@@ -7,6 +7,11 @@
    font-family: 'League Spartan', sans-serif;
 }
 
+.flex {
+   display: flex;
+}
+
+
 li {
    list-style: none;
 }
@@ -552,9 +557,7 @@ span {
 }
 
 /* ********************* */
-/* ********************* */
 /* SHOP Page */
-/* ********************* */
 /* ********************* */
 
 #page-header {
@@ -580,34 +583,152 @@ span {
    color: #ffffff;
 }
 
+#pagination {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   gap: 5px;
+}
+
+#pagination a {
+   text-decoration: none;
+   background-color: #088178;
+   padding: 15px 20px;
+   border-radius: 4px;
+   color: #fff;
+   font-weight: 600;
+}
+
 
 
 
 /* ********************* */
+/* Product Page */
 /* ********************* */
-/* ABOUT Page */
-/* ********************* */
-/* ********************* */
+#prodetails {
+   display: flex;
+   justify-content: center;
+}
+
+#prodetails .single-pro-image {
+   width: 30%;
+   margin-right: 50px;
+}
+
+#mainImg {
+   margin-bottom: 7px;
+}
+
+.small-img-group {
+   display: flex;
+   justify-content: space-between;
+}
+
+.small-img-col {
+   flex-basis: 24%;
+   cursor: pointer;
+}
+
+#prodetails {
+   display: flex;
+   margin-top: 30px;
+}
+
+#prodetails .single-pro-details {
+   width: 50%;
+   padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+   padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+   font-size: 28px;
+}
+
+#prodetails .single-pro-details select {
+   display: block;
+   padding: 5px 10px;
+   margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+   width: 50px;
+   height: 47px;
+   padding-left: 10px;
+   font-size: 16px;
+   margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus {
+   outline: none;
+}
+
+.flex button {
+   background-color: #088178;
+   color: white;
+}
+
+.wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 10px;
+   border: 1px solid #cce7d0;
+   border-radius: 5px;
+}
+
+.wrapper span {
+   padding: 10px 20px;
+   border: 1px solid #cce7d0;
+   cursor: pointer;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.kuka {
+   display: none;
+}
+
+@media (max-width: 850px) {
+   #prodetails .single-pro-image {
+      width: 50%;
+   }
+   .kuka {
+      display: block;
+   }
+   .none {
+      display: none;
+   }
+}
+
+@media (max-width: 500px) {
+   #prodetails {
+      display: block;
+   }
+   #prodetails .single-pro-image {
+      width: 100%;
+   }
+   #prodetails .single-pro-details {
+      width: 100%;
+   }
+}
 
 
-/* ********************* */
 /* ********************* */
 /* BLOG Page */
 /* ********************* */
-/* ********************* */
 
 
-/* ********************* */
 /* ********************* */
 /* CONTACT Page */
 /* ********************* */
-/* ********************* */
 
 
-/* ********************* */
 /* ********************* */
 /* BLOG Page */
-/* ********************* */
 /* ********************* */
 
 @media (max-width: 799px) {
