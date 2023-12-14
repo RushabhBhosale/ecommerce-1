@@ -551,6 +551,65 @@ span {
    text-align: center;
 }
 
+/* ********************* */
+/* ********************* */
+/* SHOP Page */
+/* ********************* */
+/* ********************* */
+
+#page-header {
+   background-image: url('../images/banner/b1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 40vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   padding: 14px;
+}
+
+#page-header h2 {
+   color: white;
+}
+
+#page-header p {
+   font-size: 20px;
+   color: #ffffff;
+}
+
+
+
+
+/* ********************* */
+/* ********************* */
+/* ABOUT Page */
+/* ********************* */
+/* ********************* */
+
+
+/* ********************* */
+/* ********************* */
+/* BLOG Page */
+/* ********************* */
+/* ********************* */
+
+
+/* ********************* */
+/* ********************* */
+/* CONTACT Page */
+/* ********************* */
+/* ********************* */
+
+
+/* ********************* */
+/* ********************* */
+/* BLOG Page */
+/* ********************* */
+/* ********************* */
+
 @media (max-width: 799px) {
    .section-p1 {
       padding: 40px;
