@@ -628,6 +628,7 @@ span {
 .small-img-col {
    flex-basis: 24%;
    cursor: pointer;
+   margin-top: 6px;
 }
 
 #prodetails {
@@ -796,12 +797,53 @@ span {
 
 
 /* ********************* */
-/* CONTACT Page */
+/* About Page */
 /* ********************* */
 
+#page-header.about-header {
+   background-image: url('../images/about/banner.png');
+}
+
+#about-head {
+   display: flex;
+   align-items: center;
+}
+
+#about-head img {
+   width: 50%;
+   height: auto;
+}
+
+#about-head div {
+   padding-left: 40px;
+}
 
 /* ********************* */
-/* BLOG Page */
+/* Category Page */
+/* ********************* */
+
+#page-header.category-header {
+   background-image: url('/assets/images/banner/b2.jpg');
+}
+
+.categoryTitle {
+   color: white;
+}
+
+.featured {
+   justify-content: center !important;
+} 
+
+.featured .fe-box {
+   margin: 20px !important;
+}
+
+
+
+
+
+/* ********************* */
+/* Media Queries */
 /* ********************* */
 
 @media (max-width: 799px) {
