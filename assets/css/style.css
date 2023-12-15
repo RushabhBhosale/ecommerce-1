@@ -818,6 +818,23 @@ span {
    padding-left: 40px;
 }
 
+#about-app {
+   text-align: center;
+}
+
+#about-app .video {
+   width: 70%;
+   height: 100%;
+   margin: 30px auto 0 auto;
+
+}
+
+#about-app .video video {
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+}
+
 /* ********************* */
 /* Category Page */
 /* ********************* */
@@ -839,6 +856,121 @@ span {
 }
 
 
+/* ********************* */
+/* Contact */
+/* ********************* */
+
+#contact-details {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#contact-details .details {
+   width: 40%;
+}
+
+#form-details form span,
+#contact-details .details span {
+   font-size: 14px;
+}
+
+#form h2,
+#contact-details .details h2 {
+   font-size: 38px;
+   line-height: 35px;
+   padding: 20px 0;
+}
+
+#contact-details .details h3 {
+   font-size: 20px;
+   padding-bottom: 15px;
+}
+
+#contact-details .details li {
+   display: flex;
+   padding: 10px 0;
+}
+
+#contact-details .details li i {
+   font-size: 16px;
+   padding-right: 22px;
+}
+
+#contact-details .details li p {
+   margin: 0;
+   font-size: 16px;
+}
+
+#contact-details .map {
+   width: 55%;
+   height: 400px;
+}
+
+#contact-details .map iframe {
+   width: 100%;
+   height: 100%;
+}
+
+#form-details {
+   display: flex;
+   justify-content: space-between;
+   margin: 30px;
+   padding: 80px;
+   border: 1px solid #e1e1e1;
+}
+
+#form-details form {
+   width: 65%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea {
+   width: 100%;
+   height: 100%;
+   padding: 12px 15px;
+   outline: none;
+   border: 1px solid #e1e1e1;
+   margin-bottom: 20px;
+}
+
+#form-details form button {
+   background-color: #088178;
+   color: white;
+}
+
+#form-details .people div img {
+   width: 65px;
+   height: 65px;
+   object-fit: cover;
+   margin-right: 15px;
+} 
+
+#form-details .people div p {
+   margin: 0;
+   font-size: 15px;
+   line-height: 25px;
+}
+
+#form-details .people div p span {
+   display: block;
+   font-size: 17px;
+   color: #000000;
+   font-weight: 600;
+}
+
+/* ********************* */
+/* Cart Page */
+/* ********************* */
+
+#page-header.cart-header {
+   background-image: url('/assets/images/banner/cart.jpg');
+   background-size: cover;
+   background-position: top 15% right 10%;
+}
 
 
 
@@ -908,6 +1040,45 @@ span {
    .section {
       padding: 0 40px;
    }
+
+   #about-head {
+      display: block;
+   }
+
+   #about-head img {
+      width: 93%;
+      margin: auto;
+      margin-bottom: 20px;
+      height: auto;
+
+   }
+
+   #about-head div {
+      padding-left: 20px;
+   }
+
+   #contact-details,
+   #form-details {
+      display: block;
+   }
+
+   #form-details form,
+   #contact-details .details,
+   #contact-details .map {
+      width: 100%;
+   }
+
+   .people {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+   }
+
+   #form-details .people div img {
+      margin: auto;
+      margin-top: 40px;
+  }
+
 }
 
 @media (max-width: 477px) {
@@ -1059,4 +1230,14 @@ span {
    #blog {
       padding: 150px 20px 0 20px;
    }
+
+   .people {
+      display: block;
+      justify-content: space-between;
+      text-align: center;
+   }
+
+   #form-details {
+      padding: 0;
+  }
 }
