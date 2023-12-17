@@ -3,21 +3,25 @@ const plus = document.querySelector(".plus");
 const minus = document.querySelector(".minus");
 const num = document.querySelector(".num");
 
-let a = 1;
+if (!plus || !minus || !num) {
+} else {
+    let a = 1;
 
-plus.addEventListener("click", () => {
-   if (a < 10) {
-      a++;
-   }
-   num.innerText = a;
-})
+    plus.addEventListener("click", () => {
+        if (a < 10) {
+            a++;
+        }
+        num.innerText = a;
+    });
 
-minus.addEventListener("click", () => {
-   if (a > 0) {
-      a--;
-   }
-   num.innerText = a;
-})
+    minus.addEventListener("click", () => {
+        if (a > 0) {
+            a--;
+        }
+        num.innerText = a;
+    });
+}
+
 
 // Product Image
 
@@ -50,5 +54,4 @@ function redirectToProduct(brand, title, price) {
    const productUrl = `product.html?brand=${encodeURIComponent(brand)}&title=${encodeURIComponent(title)}&price=${encodeURIComponent(price)}`;
    window.location.href = productUrl;
 }
-
 
