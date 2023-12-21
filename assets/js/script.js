@@ -5,21 +5,21 @@ const num = document.querySelector(".num");
 
 if (!plus || !minus || !num) {
 } else {
-    let a = 1;
+   let a = 1;
 
-    plus.addEventListener("click", () => {
-        if (a < 10) {
-            a++;
-        }
-        num.innerText = a;
-    });
+   plus.addEventListener("click", () => {
+      if (a < 10) {
+         a++;
+      }
+      num.innerText = a;
+   });
 
-    minus.addEventListener("click", () => {
-        if (a > 0) {
-            a--;
-        }
-        num.innerText = a;
-    });
+   minus.addEventListener("click", () => {
+      if (a > 0) {
+         a--;
+      }
+      num.innerText = a;
+   });
 }
 
 

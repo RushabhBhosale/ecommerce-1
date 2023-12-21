@@ -1,121 +1,189 @@
-const items =[
-   {
-     id: 1,
-     image: "assets/images/products/nike.jpg",
-     name: "Nike",
-     description: "Cool Graphic T-Shirts",
-     price: 60
-   },
-   {
-     id: 2,
-     image: "assets/images/products/adidas.jpg",
-     name: "Adidas",
-     description: "Space Explorer Tees",
-     price: 78
-   },
-   {
-     id: 3,
-     image: "assets/images/products/puma.jpg",
-     name: "Puma",
-     description: "Astronomy Theme Shirts",
-     price: 65
-   },
-   {
-     id: 4,
-     image: "assets/images/products/under armour.jpg",
-     name: "Under Armour",
-     description: "Funky Astronaut Tops",
-     price: 70
-   },
-   {
-     id: 5,
-     image: "assets/images/products/reebok.jpg",
-     name: "Reebok",
-     description: "Galactic Print Shirts",
-     price: 55
-   },
-   {
-     id: 6,
-     image: "assets/images/products/new balance.jpg",
-     name: "New Balance",
-     description: "Cosmic Explorer Shirts",
-     price: 68
-   },
-   {
-     id: 7,
-     image: "assets/images/products/converse.jpg",
-     name: "Converse",
-     description: "Space Odyssey Shorts",
-     price: 75
-   },
-   {
-     id: 8,
-     image: "assets/images/products/vans.jpg",
-     name: "Vans",
-     description: "Interstellar Graphic Tees",
-     price: 72
-   },
-   {
-     id: 9,
-     image: "assets/images/products/levi.jpg",
-     name: "Levi",
-     description: "Cool Graphic T-Shirts",
-     price: 60
-   },
-   {
-     id: 10,
-     image: "assets/images/products/gucci.jpg",
-     name: "Gucci",
-     description: "Space Explorer Tees",
-     price: 78
-   },
-   {
-     id: 11,
-     image: "assets/images/products/ralph lauren.jpg",
-     name: "Ralph Lauren",
-     description: "Astronomy Theme Shirts",
-     price: 65
-   },
-   {
-     id: 12,
-     image: "assets/images/products/zara.jpg",
-     name: "Zara",
-     description: "Funky Astronaut Tops",
-     price: 70
-   },
-   {
-     id: 13,
-     image: "assets/images/products/calvin klein.jpg",
-     name: "Calvin Klein",
-     description: "Galactic Print Shirts",
-     price: 55
-   },
-   {
-     id: 14,
-     image: "assets/images/products/supreme.jpg",
-     name: "Supreme",
-     description: "Cosmic Explorer Shirts",
-     price: 68
-   },
-   {
-     id: 15,
-     image: "assets/images/products/fila.jpg",
-     name: "Fila",
-     description: "Space Odyssey Shorts",
-     price: 75
-   },
-   {
-     id: 16,
-     image: "assets/images/products/h&m.jpg",
-     name: "H&M",
-     description: "Interstellar Graphic Tees",
-     price: 72
-   },
-   {
+const items = [
+  {
+    id: 1,
+    image: "assets/images/products/nike.jpg",
+    name: "Nike",
+    description: "Cool Graphic T-Shirts",
+    ratings:1,
+    populartity:7,
+    type:"Shirts",
+    date:10,
+    price: 60
+  },
+  {
+    id: 2,
+    image: "assets/images/products/adidas.jpg",
+    name: "Adidas",
+    description: "Space Explorer Tees",
+    ratings:1,
+    populartity:8,
+    type:"Shirts",
+    date:9,
+    price: 78
+  },
+  {
+    id: 3,
+    image: "assets/images/products/puma.jpg",
+    name: "Puma",
+    description: "Astronomy Theme Shirts",
+    ratings:4,
+    populartity:1,
+    type:"Shirts",
+    date:9,
+    price: 65
+  },
+  {
+    id: 4,
+    image: "assets/images/products/under armour.jpg",
+    name: "Under Armour",
+    description: "Funky Astronaut Tops",
+    ratings:1,
+    populartity:1,
+    type:"Shirts",
+    date:9,
+    price: 70
+  },
+  {
+    id: 5,
+    image: "assets/images/products/reebok.jpg",
+    name: "Reebok",
+    description: "Galactic Print Shirts",
+    ratings:2,
+    populartity:10,
+    type:"Shirts",
+    date:4,
+    price: 55
+  },
+  {
+    id: 6,
+    image: "assets/images/products/new balance.jpg",
+    name: "New Balance",
+    description: "Cosmic Explorer Shirts",
+    ratings:3,
+    populartity:8,
+    type:"Shirts",
+    date:9,
+    price: 68
+  },
+  {
+    id: 7,
+    image: "assets/images/products/converse.jpg",
+    name: "Converse",
+    description: "Space Odyssey Shorts",
+    ratings:2,
+    populartity:8,
+    type:"Shirts",
+    date:10,
+    price: 75
+  },
+  {
+    id: 8,
+    image: "assets/images/products/vans.jpg",
+    name: "Vans",
+    description: "Interstellar Graphic Tees",
+    ratings:1,
+    populartity:9,
+    type:"Shirts",
+    date:8,
+    price: 72
+  },
+  {
+    id: 9,
+    image: "assets/images/products/levi.jpg",
+    name: "Levi",
+    description: "Cool Graphic T-Shirts",
+    ratings:5,
+    populartity:9,
+    type:"Shirts",
+    date:9,
+    price: 60
+  },
+  {
+    id: 10,
+    image: "assets/images/products/gucci.jpg",
+    name: "Gucci",
+    description: "Space Explorer Tees",
+    ratings:2,
+    populartity:9,
+    type:"Shirts",
+    date:8,
+    price: 78
+  },
+  {
+    id: 11,
+    image: "assets/images/products/ralph lauren.jpg",
+    name: "Ralph Lauren",
+    description: "Astronomy Theme Shirts",
+    ratings:1,
+    populartity:9,
+    type:"Shirts",
+    date:8,
+    price: 65
+  },
+  {
+    id: 12,
+    image: "assets/images/products/zara.jpg",
+    name: "Zara",
+    description: "Funky Astronaut Tops",
+    ratings:4,
+    populartity:9,
+    type:"Shirts",
+    date:10,
+    price: 70
+  },
+  {
+    id: 13,
+    image: "assets/images/products/calvin klein.jpg",
+    name: "Calvin Klein",
+    description: "Galactic Print Shirts",
+    ratings:2,
+    populartity:9,
+    type:"Shirts",
+    date:8,
+    price: 55
+  },
+  {
+    id: 14,
+    image: "assets/images/products/supreme.jpg",
+    name: "Supreme",
+    description: "Cosmic Explorer Shirts",
+    ratings:1,
+    populartity:9,
+    type:"Shirts",
+    date:7,
+    price: 68
+  },
+  {
+    id: 15,
+    image: "assets/images/products/fila.jpg",
+    name: "Fila",
+    description: "Space Odyssey Shorts",
+    ratings:4,
+    populartity:9,
+    type:"Shirts",
+    date:9,
+    price: 75
+  },
+  {
+    id: 16,
+    image: "assets/images/products/h&m.jpg",
+    name: "H&M",
+    description: "Interstellar Graphic Tees",
+    ratings:5,
+    populartity:9,
+    type:"Shirts",
+    date:10,
+    price: 72
+  },
+  {
     id: 17,
     image: "assets/images/products/nike.jpg",
     name: "Nike Pro",
     description: "High-Performance Workout Gear",
+    ratings:1,
+    populartity:9,
+    type:"Shirts",
+    date:3,
     price: 85
   },
   {
@@ -123,6 +191,10 @@ const items =[
     image: "assets/images/products/adidas.jpg",
     name: "Adidas Boost",
     description: "Running Shoes with Energy Return",
+    ratings:5,
+    populartity:10,
+    type:"Shirts",
+    date:2,
     price: 120
   },
   {
@@ -130,6 +202,10 @@ const items =[
     image: "assets/images/products/puma.jpg",
     name: "Puma Ignite",
     description: "Responsive Training Sneakers",
+    ratings:2,
+    populartity:9,
+    type:"Shirts",
+    date:10,
     price: 95
   },
   {
@@ -137,6 +213,10 @@ const items =[
     image: "assets/images/products/under armour.jpg",
     name: "Under Armour HeatGear",
     description: "Breathable Sports Apparel",
+    ratings:1,
+    populartity:8,
+    type:"Shirts",
+    date:9,
     price: 80
   },
   {
@@ -144,6 +224,10 @@ const items =[
     image: "assets/images/products/reebok.jpg",
     name: "Reebok Nano",
     description: "CrossFit-Ready Athletic Shoes",
+    ratings:3,
+    populartity:8,
+    type:"Shirts",
+    date:1,
     price: 110
   },
   {
@@ -151,6 +235,10 @@ const items =[
     image: "assets/images/products/new balance.jpg",
     name: "New Balance 990",
     description: "Classic Heritage Running Sneakers",
+    ratings:4,
+    populartity:10,
+    type:"Shirts",
+    date:9,
     price: 130
   },
   {
@@ -158,6 +246,10 @@ const items =[
     image: "assets/images/products/converse.jpg",
     name: "Converse Chuck Taylor",
     description: "Iconic Canvas Sneakers",
+    ratings:3,
+    populartity:10,
+    type:"Shirts",
+    date:7,
     price: 55
   },
   {
@@ -165,6 +257,10 @@ const items =[
     image: "assets/images/products/vans.jpg",
     name: "Vans Old Skool",
     description: "Skate-Inspired Casual Shoes",
+    ratings:1,
+    populartity:10,
+    type:"Shirts",
+    date:7,
     price: 65
   },
   {
@@ -172,6 +268,10 @@ const items =[
     image: "assets/images/products/levi.jpg",
     name: "Levi's Denim Jacket",
     description: "Classic Trucker Jacket",
+    ratings:1,
+    populartity:10,
+    type:"Shirts",
+    date:10,
     price: 90
   },
   {
@@ -179,8 +279,11 @@ const items =[
     image: "assets/images/products/gucci.jpg",
     name: "Gucci Loafers",
     description: "Luxury Leather Slip-Ons",
+    ratings:5,
+    populartity:10,
+    type:"Shirts",
+    date:5,
     price: 550
   }
 ]
 
- 

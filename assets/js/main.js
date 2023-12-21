@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const item = items[i];
       innerHTML += `
    <div class="pro">
-      <img src="${item.image}" onclick="redirectToProduct('${item.name}', '${item.description}', ${item.price});">
+      <img src="${item.image}>
       <div class="des">
             <span>${item.name}</span>
             <h5>${item.description}</h5>
